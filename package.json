@@ -1,0 +1,21 @@
+{
+  "name": "adventcode2021",
+  "version": "1.0.0",
+  "description": "AdventCode2021_IFC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "play": "tsc ./index.ts && node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.6",
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.6"
+  }
+}
